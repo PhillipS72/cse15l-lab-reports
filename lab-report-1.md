@@ -1,6 +1,6 @@
 # **Lab Report 1**
 Phillip Schiffman
-
+***
 ## Using the commands with no arguments
 1. `cd`
 ```
