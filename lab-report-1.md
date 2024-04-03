@@ -1,8 +1,9 @@
-# **Lab Report 1**
+# Lab Report 1
 Phillip Schiffman
 ***
 ## Using the commands with no arguments
 1. `cd`
+
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work
 $ pwd
@@ -23,6 +24,7 @@ $
 - The `cd` with no arguments is not an error
 
 2. `ls`
+
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work/lecture1 (main)
 $ ls
@@ -36,6 +38,7 @@ $
 - The `ls` argument can create an error if you are currently inside a file, but in this case, there is no error message
 
 3. `cat`
+   
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work/lecture1 (main)
 $ cat
@@ -59,6 +62,7 @@ $
 
 ## Using the commands with a path to a directory as an argument
 1. `cd`
+   
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop
 $ cd 'VS Code Work'
@@ -75,6 +79,7 @@ $
 - The `cd` argument did not create an error because I specified the correct directory that I wanted to get into
 
 2. `ls`
+   
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work/lecture1 (main)
 $ pwd
@@ -90,6 +95,7 @@ en-us.txt  es-mx.txt  zh-cn.txt
 - The `ls` argument did not create an error because I specified the correct directory that I wanted to return file names from, and there were files within the directory.
 
 3. `cat`
+   
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work/lecture1 (main)
 $ pwd
