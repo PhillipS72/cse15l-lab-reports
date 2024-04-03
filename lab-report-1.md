@@ -2,7 +2,7 @@
 Phillip Schiffman
 ***
 ## Using the commands with no arguments
-1. `cd`
+1.) `cd`
 
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work
@@ -23,7 +23,7 @@ $
 - The absolute path was `/c/Users/phill/OneDrive/Desktop/VS Code Work` when the command was run
 - The `cd` with no arguments is not an error
 
-2. `ls`
+2.) `ls`
 
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work/lecture1 (main)
@@ -37,7 +37,7 @@ $
 - The absolute path was `/OneDrive/Desktop/VS Code Work/lecture1`
 - The `ls` argument can create an error if you are currently inside a file, but in this case, there is no error message
 
-3. `cat`
+3.) `cat`
    
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work/lecture1 (main)
@@ -61,7 +61,7 @@ $
 ***
 
 ## Using the commands with a path to a directory as an argument
-1. `cd`
+1.) `cd`
    
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop
@@ -78,7 +78,7 @@ $
 - The absolute path was `/OneDrive/Desktop` and I used the `cd` argument to get into the `/OneDrive/Desktop/VS Code Work` directory, and then into the `/OneDrive/Desktop/VS Code Work/lecture1` directory
 - The `cd` argument did not create an error because I specified the correct directory that I wanted to get into
 
-2. `ls`
+2.) `ls`
    
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work/lecture1 (main)
@@ -94,7 +94,7 @@ en-us.txt  es-mx.txt  zh-cn.txt
 - The absolute path was `/OneDrive/Desktop/VS Code Work/lecture1` and I used the `ls` argument on the `/OneDrive/Desktop/VS Code Work/lecture1/messages` directory in order to return the 3 files within the `/OneDrive/Desktop/VS Code Work/lecture1/messages` directory
 - The `ls` argument did not create an error because I specified the correct directory that I wanted to return file names from, and there were files within the directory.
 
-3. `cat`
+3.) `cat`
    
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work/lecture1 (main)
@@ -113,7 +113,7 @@ cat: messages: Is a directory
 ***
 
 ## Using the commands with a path to a file as the argument
-1. `cd`
+1.) `cd`
 
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work/lecture1 (main)
@@ -128,7 +128,7 @@ bash: cd: Hello.java: Not a directory
 - The `cd` argument with a file path returns an error message of, `bash: cd: Hello.java: Not a directory` because the `cd` argument is used to traverse directories not files
 - The absolute path was `/OneDrive/Desktop/VS Code Work/lecture1` and I used the `cd` argument on the `/OneDrive/Desktop/VS Code Work/lecture1/Hello.java` file which resulted in the error
 
-2. `ls`
+2.) `ls`
 
 ```
 phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work/lecture1 (main)
@@ -144,7 +144,7 @@ Hello.java
 - The absolute path was `/OneDrive/Desktop/VS Code Work/lecture1` and I used the `ls` argument on the `/OneDrive/Desktop/VS Code Work/lecture1/Hello.java` file which returned the name of the file, `Hello.java`
 - Using the `ls` argument with the file path did not result in an error because the file I used existed
 
-3. `cat`
+3.) `cat`
 
   ```
   phill@PhillipLaptop MINGW64 ~/OneDrive/Desktop/VS Code Work/lecture1 (main)
