@@ -90,7 +90,9 @@ Phillip: Every time I reload, it becomes a new message!
 ***
 # Part 2
 ## Screenshots
-
+![image](lsPrivateKey.png)
+![image](lsPublicKey.png)
+![image](LogInWithNoPass.png)
 ***
 # Part 3
 In lab 3, I learned about the uses of public and private keys when SSHing into a server. Before this lab, I didn't realize that each computer had it's unique identity that would be shared to the server. Originally, I thought it would just save your password, rather than have an ID with a private and public value.
