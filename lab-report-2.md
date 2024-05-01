@@ -93,7 +93,7 @@ Phillip: Every time I reload, it becomes a new message!
 # Part 2
 ## Screenshots
 ![image](lsPrivateKey.png)
-![image](lsPublicKey.png)
+![image](lsPublicKey.png.png)
 ![image](LogInWithNoPass.png)
 ***
 # Part 3
