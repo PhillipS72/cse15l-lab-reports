@@ -49,6 +49,7 @@ class ChatServer {
 ![image](ChatServer1.png)
 
 - In this case, the main method is run in the ```ChatServer``` class, and it calls the ```handleRequest``` method because the port is inputted
+- In the ```handleRequest``` method, it can call the ```url.getPath().contains``` method, which will then call the ```url.getQuery().split``` method, and complete the code
 - Then, the ```if``` statement is run because the url contains the ```"add-message"```
 - Next, my code uses the ```url.getQuery.split()``` command to split the url based on the ```"&"``` in the url. This allows me to split the url into even more parts to isolate the message and user that will be in the final message
 - To do this, I use another ```.split``` which allows me to have the message and the user in 2 separate arrays ```messages``` and ```users```
@@ -71,6 +72,7 @@ class ChatServer {
 - Finally, I loop through all of the elements in ```outputs``` and add them together into one String ```output``` which becomes the final result and is printed. So, in this scenario, the desired result of ```"Phillip: Hello, this is a test"``` is printed
 - Now, when the url is re-ran, the ```queries```, ```messages```, and ```users``` arrays are reset into the new queries, which then changes the ```message``` and ```user`` variables as well.
 - So, for the 2nd url that is inputted, the ```message``` variable becomes ```"This is a pretty cool lab"``` and the ```user``` variable becomes ```Phillip```
+- One thing to note is that if people were to chat with one another on this website, the ```user``` can be turned into something else. However, in my case I wanted to show that I was the only person inputting text, so I kept the ```user``` variable the same
 - Then, it gets added to the ```outputs``` ArrayList, and finally the ```output``` is returned, which will now be
 ```
 Phillip: Hello, this is a test
