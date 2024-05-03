@@ -22,7 +22,7 @@ static void reverseInPlace(int[] arr) {
 *Failure Inducing Input*
 ```
 @Test
-  public void testFailure() {
+  public void testFailureInducing() {
     int[] input = {1, 2, 3, 4, 5};
     ArrayExamples.reverseInPlace(input);
     assertArrayEquals(new int[]{5, 4, 3, 2, 1}, input);
@@ -39,7 +39,7 @@ static void reverseInPlace(int[] arr) {
 *Non-Failure Inducing Input*
 ```
 @Test
-  public void testNonFailure() {
+  public void testNonFailureInducing() {
     int[] input = {5,4,3,4,5};
     ArrayExamples.reverseInPlace(input);
     assertArrayEquals(new int[]{5,4,3,4,5}, input);
@@ -52,6 +52,7 @@ static void reverseInPlace(int[] arr) {
 - When this is run, within the ```reverseInPlace()``` method the code will mirror the items from the second half of the array to the first half, but since the given ```input``` is already a mirror of itself, nothing will change
 - Therefore, the code will result in no failures detected, because although the values are changing, the numbers are still the same, which will read as a test passed
 
+![image](Symptom.png)
 
 
 
