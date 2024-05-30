@@ -1,6 +1,5 @@
 # Lab Report 5
 ## Phillip Schiffman
-###
 ## Original Student Post
 Hello everyone,
 
